@@ -3,9 +3,11 @@ const email = document.getElementById("email");
 
 function showError(input, message) {
   const formControl = input.parentElement;
+  const errorIcon = document.querySelector(".error-icon");
   formControl.className = "form-control error";
   const small = formControl.querySelector("small");
   small.innerText = message;
+  errorIcon.classList.remove("hide-visibility");
 }
 
 // show success message
@@ -13,6 +15,8 @@ function showSuccess(input) {
   const formControl = input.parentElement;
   formControl.className = "form-control success";
 }
+
+// function checkRequiredInput(emailInput) {}
 
 function isValidEmail(email) {
   const emailRegex =
@@ -23,11 +27,13 @@ function isValidEmail(email) {
 form.addEventListener("submit", function (e) {
   e.preventDefault();
 
-  if (email.value === "") {
+  // checkRequiredInput(email);
+
+  if (email.value.trim() === "") {
     showError(email, "Please provide your email");
   } else if (!isValidEmail(email.value)) {
     showError(email, "Please provide a valid email");
-  } else {
+  } else if (isValidEmail) {
     showSuccess(email);
   }
 });

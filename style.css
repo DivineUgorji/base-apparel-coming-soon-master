@@ -204,6 +204,15 @@ fieldset {
   outline: solid 1px var(--clr-secondary);
 }
 
+.error-icon {
+  position: absolute;
+  right: 0;
+  margin-top: 18px;
+  margin-right: 105px;
+  width: 20px;
+  /* visibility: hidden; */
+}
+
 .form-control small {
   color: var(--clr-secondary);
   font-size: 0.8125rem;
@@ -219,6 +228,14 @@ fieldset {
 .form-control.error small {
   visibility: visible;
 }
+
+.hide-visibility {
+  visibility: hidden;
+}
+
+/* .form-control.error .error-icon {
+  visibility: visible;
+} */
 
 .button[data-icon="forward-arrow"] {
   cursor: pointer;
