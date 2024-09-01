@@ -23,66 +23,96 @@
 
     <title>Frontend Mentor | Base Apparel coming soon page</title>
   </head>
-  <body>
+  <body class="wrapper">
     <main>
-      <div class="container">
-        <div class="product__content">
-          <img class="logo" src="images/logo.svg" alt="" />
-          <div class="product__text-block">
-            <h1 class="sr-only">Base apparel coming soon landing page</h1>
-            <h2 class="product__title"><span>We're </span> coming soon</h2>
-            <p class="product__description">
-              Hello fellow shoppers! We're currently building our new fashion
-              store. Add your email below to stay up-to-date with announcements
-              and our launch deals.
-            </p>
-            <form id="form">
-              <fieldset>
-                <legend class="sr-only">Enter your email</legend>
-                <div class="form-control">
-                  <label for="email">Email</label>
-                  <input
-                    type="text"
-                    id="email"
-                    placeholder="Enter your email"
-                  />
-                  <img
-                    class="error-icon hide-visibility"
-                    src="images/icon-error.svg"
-                    alt=""
-                  />
-                  <button
-                    class="button"
-                    type="submit"
-                    data-icon="forward-arrow"
-                  >
-                    &gt;
-                  </button>
-                  <small class="error">Error message</small>
-                </div>
-              </fieldset>
-            </form>
+      <section class="main-section" id="main-page">
+        <div class="container">
+          <div class="product__content">
+            <img class="logo" src="images/logo.svg" alt="" />
+            <div class="product__text-block">
+              <h1 class="sr-only">Base apparel coming soon landing page</h1>
+              <h2 class="product__title"><span>We're </span> coming soon</h2>
+              <p class="product__description">
+                Hello fellow shoppers! We're currently building our new fashion
+                store. Add your email below to stay up-to-date with
+                announcements and our launch deals.
+              </p>
+              <form id="form">
+                <fieldset>
+                  <legend class="sr-only">Email form</legend>
+                  <div class="input-container">
+                    <div class="form-control">
+                      <label for="email">Email</label>
+                      <input
+                        type="text"
+                        id="email"
+                        placeholder="Email Address"
+                      />
+                      <img
+                        class="error-icon hide-visibility"
+                        src="images/icon-error.svg"
+                        alt=""
+                      />
+                      <button
+                        class="button"
+                        id="submit"
+                        type="submit"
+                        data-icon="forward-arrow"
+                      >
+                        &gt;
+                      </button>
+                      <small class="error">Error message</small>
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
           </div>
+          <picture class="product__image-block">
+            <source
+              srcset="images/hero-desktop.jpg"
+              media="(min-width:600px)"
+            />
+            <img
+              src="images/hero-mobile.jpg"
+              alt="A beautiful model looking straight into the camera."
+            />
+          </picture>
+        </div>
+      </section>
+
+      <section
+        class="welcome-page__section page-disabled"
+        id="email-success-page"
+      >
+        <div class="welcome-page__container">
+          <h2 class="product__title welcome-page__title">
+            You're now a part of the Base apparel family
+          </h2>
+          <p class="welcome-page__text">
+            Thanks for subscribing to our email list. You'd be informed as soon
+            as we launch.
+          </p>
+          <p class="welcome-page__text"></p>
+          <p class="welcome-page__text">Stay tuned.</p>
         </div>
 
-        <picture class="product__image-block">
-          <source srcset="images/hero-desktop.jpg" media="(min-width:600px)" />
-          <img
-            src="images/hero-mobile.jpg"
-            alt="A beautiful model looking straight into the camera."
-          />
-        </picture>
-      </div>
+        <div>
+          <p class="attribution">
+            Challenge by
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+              >Frontend Mentor</a
+            >. Coded by
+            <a
+              href="https://github.com/DivineUgorji/base-apparel-coming-soon-master"
+              >Divine Ugorji</a
+            >.
+          </p>
+        </div>
+      </section>
     </main>
-
-    <!-- <footer>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
-      </p>
-    </footer> -->
     <script src="index.js"></script>
   </body>
 </html>
