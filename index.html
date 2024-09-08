@@ -28,7 +28,7 @@
       <section class="main-section" id="main-page">
         <div class="container">
           <div class="product__content">
-            <img class="logo" src="images/logo.svg" alt="" />
+            <div><img class="logo" src="images/logo.svg" alt="" /></div>
             <div class="product__text-block">
               <h1 class="sr-only">Base apparel coming soon landing page</h1>
               <h2 class="product__title"><span>We're </span> coming soon</h2>
@@ -40,46 +40,40 @@
               <form id="form">
                 <fieldset>
                   <legend class="sr-only">Email form</legend>
-                  <div class="input-container">
-                    <div class="form-control">
-                      <label for="email">Email</label>
-                      <input
-                        type="text"
-                        id="email"
-                        placeholder="Email Address"
-                      />
-                      <img
-                        class="error-icon hide-visibility"
-                        src="images/icon-error.svg"
-                        alt=""
-                      />
-                      <button
-                        class="button"
-                        id="submit"
-                        type="submit"
-                        data-icon="forward-arrow"
-                      >
-                        &gt;
-                      </button>
-                      <small class="error">Error message</small>
-                    </div>
+                  <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Email Address" />
+                    <img
+                      class="error-icon hide-visibility"
+                      src="images/icon-error.svg"
+                      alt=""
+                    />
+                    <button
+                      class="button"
+                      id="submit"
+                      type="submit"
+                      data-icon="forward-arrow"
+                    >
+                      &gt;
+                    </button>
+                    <small class="error">Error message</small>
                   </div>
                 </fieldset>
               </form>
             </div>
           </div>
-          <!-- <picture class="product__image-block">
+          <!-- <div class="image-container"> -->
+          <picture class="product__image-block">
             <source
               srcset="images/hero-desktop.jpg"
-              media="(min-width:900px)"
+              media="(min-width:800px)"
             />
             <img
               src="images/hero-mobile.jpg"
               alt="A beautiful model looking straight into the camera."
             />
-          </picture> -->
-
-          <div class="hero-img"></div>
+          </picture>
+          <!-- </div> -->
         </div>
       </section>
 
