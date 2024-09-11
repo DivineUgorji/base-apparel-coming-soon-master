@@ -5,17 +5,11 @@
 Thanks for checking out this froont-end coding challenge.
 ![Design preview for the Base Apparel coming soon page coding challenge](./design/desktop-preview.jpg)
 
-<div align = "center"> 
-<h1 align="center"> Visual Designer Portfolio Landing Page</h1>
+<div align = "center">
 
-<h3>This Resource Here Is Completely For The Purpose Of Practise a
-And Learning.</h3>
+<h3>This Resource Here Is Completely For The Purpose Of Practise And Learning.</h3>
 
 <br>
-
-<p>This is my shot at a free design resource made by Anima which I found online and used for the purpose of practise and self learning.</p>
-
-![](design/Cover.jpg)
 
 </div>
 
@@ -52,6 +46,7 @@ Users should be able to:
 - CSS Stacking context
 - Mobile-first workflow
 - BEM Methodology
+- Javascript
 
 ### What I learned
 
@@ -71,6 +66,5 @@ Users should be able to:
 
 ## Acknowledgments
 
-I'd like to acknowledge Sarah Drasner on her shake animation code snippet which inspired the shake animation used in this project.
-
-[shake animation code snippet](https://css-tricks.com/snippets/css/shake-css-keyframe-animation/b47f8db8a7063f9331a0)
+I'd like to acknowledge Sarah Drasner on her [shake animation code snippet](https://css-tricks.com/snippets/css/shake-css-keyframe-animation/b47f8db8a7063f9331a0)
+which inspired the shake animation used in this project.
