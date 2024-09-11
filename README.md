@@ -3,6 +3,8 @@
 ## Welcome! 👋
 
 Thanks for checking out this froont-end coding challenge.
+<br>
+
 ![Design preview for the Base Apparel coming soon page coding challenge](./design/desktop-preview.jpg)
 
 <div align = "center">
@@ -66,5 +68,5 @@ Users should be able to:
 
 ## Acknowledgments
 
-I'd like to acknowledge Sarah Drasner on her [shake animation code snippet](https://css-tricks.com/snippets/css/shake-css-keyframe-animation/b47f8db8a7063f9331a0)
+I'd like to acknowledge Sarah Drasner on her [shake animation code snippet](https://css-tricks.com/snippets/css/shake-css-keyframe-animation/)
 which inspired the shake animation used in this project.
