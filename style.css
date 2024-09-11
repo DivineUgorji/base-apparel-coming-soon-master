@@ -57,7 +57,7 @@
   --fw-small: 300;
 }
 
-@media (min-width: 56.25rem) {
+@media (min-width: 650px) {
   :root {
     --fs-bold: 4rem;
     --fs-small: 1rem;
